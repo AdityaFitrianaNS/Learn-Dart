@@ -11,7 +11,7 @@
 -
 # Kata kunci var
 
-- Saat membuat variable langsung dengan nilainya, kita bisa menggunakan kata kunci var sebagai TipeData nya
+- Saat membuat variable langsung dengan nilainya, kita bisa menggunakan kata kunci var sebagai TipeData nya.
 - TipeData akan dibaca sesuai dengan isi nilainya secara otomatis oleh Dart, sehinga kita tidak perlu menyebutkan TipeDatanya lagi.
 
 # Kata kunci final
