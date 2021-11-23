@@ -8,11 +8,11 @@
 
 - Variable juga bisa dibuat langsung dengan nilainya, dan sangat cocok jika, kita ingin membuat variable langsung dengan value dari variable nya.
 - Cara membuatnya bisa gunakan perintah : `tipeData namaVariable = isi variable;
-
+-
 # Kata kunci var
 
-- Saat membuat variable langsung dengan nilaiunya, kita bisa menggunakan kata kunci var sebagai TipeData nya
-- TipeData akan dibaca sesuai dengan isi nilainya secara otomatis oleh Dart, sehinga kita tidak perlu menyebutkan TipeDatanya lagi
+- Saat membuat variable langsung dengan nilainya, kita bisa menggunakan kata kunci var sebagai TipeData nya
+- TipeData akan dibaca sesuai dengan isi nilainya secara otomatis oleh Dart, sehinga kita tidak perlu menyebutkan TipeDatanya lagi.
 
 # Kata kunci final
 
