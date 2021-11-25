@@ -5,7 +5,7 @@ void main() {
   print(exercise);
   print(name);
 
-  //
+  // Mengubah Value exercise
   exercise = 'がんばって!';
   print(exercise);
 }
