@@ -20,14 +20,23 @@ void main() {
   print(quotes);
   print(level);
   print(hp);
-  print('#-------------------#');
+  print('------------------------');
 
   late var value = getValue();
-  print('Variable sudah dibuat');
+  print('Variable 1 sudah dibuat');
   print(value);
+
+  late var benar = getTrue();
+  print('Variable 2 sudah dibuat');
+  print(benar);
 }
 
 String getValue() {
   print('getValue() dipanggil');
+  return 'Aditya FNS';
+}
+
+String getTrue() {
+  print('getTrue() dipanggil');
   return 'Aditya FNS';
 }
