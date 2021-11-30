@@ -18,7 +18,6 @@ void main() {
   print('---------------');
 
   // Ubah isi variable nama, alamat, tujuan, dan nim.
-
   nama = 'Aditya Fitriana NS';
   alamat = 'Japan';
   tujuan = 'がんばります';
