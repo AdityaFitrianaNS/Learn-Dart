@@ -1,85 +1,49 @@
 import '../latihan2/latihan2.dart';
 
 void main() {
-  var nama, kelas, alamat, level;
-  var namaMu, kelasMu, alamatMu, levelMu, nimMu;
-  final nim1, nim2;
+  String nama = 'Aditya FNS';
+  var alamat = 'Japan';
+  var tujuan = 'がんばって！';
+  final nim = '111111111';
+  const kelas = 'R5';
 
-  namaMu = 'Nama   : ';
-  kelasMu = 'Kelas  : ';
-  alamatMu = 'Alamat : ';
-  levelMu = 'Level  : ';
-  nimMu = 'NIM    : ';
-
-  // Data 1
-  nama = 'Aditya FNS';
-  kelas = 'R51';
-  alamat = 'Japan';
-  level = 'Beginner';
-  nim1 = '0101010101';
-
-  print(namaMu);
   print(nama);
-  print(kelasMu);
-  print(kelas);
-  print(alamatMu);
   print(alamat);
-  print(levelMu);
-  print(level);
-  print(nimMu);
-  print(nim1);
+  print(tujuan);
+  print(nim);
+  print(kelas);
+  print('---------------');
 
-  late var hobby1 = getHobby1();
-  print('Hobby  : ');
-  print(hobby1);
-
-  late var mood1 = getMood1();
-  print('Mood   : ');
-  print(mood1);
-
-  // Data 2
-  nama = 'Hideri Kanzaki';
-  kelas = 'R52';
+  // Ubah isi variable nama, alamat, tujuan, dan nim.
+  nama = 'Aditya Fitriana NS';
   alamat = 'Japan';
-  level = 'Beginner';
-  nim2 = '020202020';
+  tujuan = 'がんばります';
 
-  print(namaMu);
   print(nama);
-  print(kelasMu);
-  print(kelas);
-  print(alamatMu);
   print(alamat);
-  print(levelMu);
-  print(level);
-  print(nimMu);
-  print(nim2);
+  print(tujuan);
+  print(nim);
+  print(kelas);
+  print('------------------');
 
-  late var hobby2 = getHobby2();
-  print('Hobby  : ');
-  print(hobby2);
+  // Deklarasi untuk digunakan nanti, ketika dibutuhkan.
+  late var motto = getMotto();
+  late var motivation = getMotivation();
 
-  late var mood2 = getMood2();
-  print('Mood   : ');
-  print(mood2);
+  //
+  print('Motto Hidup : ');
+  print(motto);
+  print('Motivasi    : ');
+  print(motivation);
 }
 
-String getHobby1() {
-  print('Reading, Watch Anime, Learn Programming');
+// Digunakan nanti, ketika dibutuhkan.
+String getMotto() {
+  print('幸せを楽しんで、笑顔を続けてください.');
   return getGaris();
 }
 
-String getMood1() {
-  print('Watch Anime Moeeeeeeee');
-  return getGaris();
-}
-
-String getHobby2() {
-  print('Maid, Housekeeper, Reading');
-  return getGaris();
-}
-
-String getMood2() {
-  print('Watch Anime Kawaiiiiiii');
+String getMotivation() {
+  print('夢を実現し、幸せになる.');
   return getGaris();
 }

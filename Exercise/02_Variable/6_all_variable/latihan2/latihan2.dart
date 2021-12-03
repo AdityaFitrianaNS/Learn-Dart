@@ -1,6 +1,4 @@
 void main() {
-  late var garis = getGaris();
-
   late var nama = getNama();
   print('Nama :');
   print(nama);
@@ -19,7 +17,7 @@ void main() {
 }
 
 String getGaris() {
-  return '------------------';
+  return '-------------------';
 }
 
 String getNama() {

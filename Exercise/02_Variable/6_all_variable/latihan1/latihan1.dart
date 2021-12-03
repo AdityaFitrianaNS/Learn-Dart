@@ -1,15 +1,10 @@
 void main() {
   //deklarasi
-  var nama, kelas;
-  final ruang;
+  var nama = 'Aditya Fitriana NS';
+  var kelas = 'R51';
+  final ruang = [5, 1];
   const nim = '1234567890';
-  var ket;
-
-  // data 1
-  nama = 'Aditya Fitriana NS';
-  kelas = 'R51';
-  ruang = [5, 1];
-  ket = 'Cek Keterangan Kelulusan';
+  String ket = 'Cek Keterangan Kelulusan';
 
   // output data 1
   print(nama);
@@ -40,8 +35,6 @@ void main() {
   late var salah = getSalah();
   print('Nilai Sedang di proses...');
   print(salah);
-
-  late var keterangan = getKeterangan();
 }
 
 String getBenar() {

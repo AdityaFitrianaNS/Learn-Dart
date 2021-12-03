@@ -1,14 +1,10 @@
 import '../latihan2/latihan2.dart';
 
 void main() {
-  var nama, alamat;
-  int nomer, rtrw;
-
-  nama = 'Aditya FNS';
-  alamat = 'Japan';
-
-  nomer = 20;
-  rtrw = 0102;
+  String nama = 'Aditya FNS';
+  var alamat = 'Iwate, No.2';
+  int nomer = 20;
+  int rtrw = 0102;
 
   print(nama);
   print(alamat);
@@ -29,7 +25,7 @@ void main() {
 }
 
 String getMotivasi() {
-  print('Hidup diantara dunia dan akhirat');
+  print('Hidup diantara dunia, dan akhirat');
   return getGaris();
 }
 
