@@ -12,7 +12,7 @@ void main() {
   // interpolation sederhana
   String fullData = '$firstName $lastName';
   // interpolation complex
-  String fullAddress = '${address} ${region}';
+  String fullAddress = '$address $region';
 
   print(fullData);
   print(fullAddress);

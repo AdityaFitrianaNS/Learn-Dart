@@ -1,5 +1,3 @@
-import 'package:test/scaffolding.dart';
-
 void main() {
   int number1 = 10;
   int number2 = 11;

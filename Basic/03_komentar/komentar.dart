@@ -2,9 +2,7 @@
 /// ini adalah hanya contoh menggunakan komentar di Dart.
 void main() {
   // Deklarasi variable
-  var nama, alamat, negara;
-
-  nama = 'Aditya FNS';
+  var nama = 'Aditya FNS';
   print(nama);
   /*
   Mengisi value variable
