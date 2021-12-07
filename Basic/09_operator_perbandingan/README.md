@@ -4,7 +4,7 @@
 - Operator perbandingan bisa digunakan di tipe data number dan string.
 
 | Operator |              Keterangan               |
-| :-----: | :------------------------------: | :-----------------------------------------------------------------------------------: | :----------------------------------:         |
+| :-----: | :------------------------------: |
 |   ==   | Sama dengan  |
 |   !=   | Tidak sama dengan  |
 |   >    | Lebih dari  |

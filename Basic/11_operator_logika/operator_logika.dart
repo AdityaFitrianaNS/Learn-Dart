@@ -9,7 +9,7 @@ void main() {
   var nilaiAbsenBagus = nilaiAbsen >= 75;
 
   print('$nilai $nilaiAkhirBagus');
-  print('$nilai $nilaiAbsenBagus');
+  print('$absen $nilaiAbsenBagus');
   print('----------------');
 
   var lulus = nilaiAkhirBagus && nilaiAbsenBagus;
