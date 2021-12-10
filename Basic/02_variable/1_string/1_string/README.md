@@ -7,7 +7,7 @@
 ## Deklarasi langsung
 
 - Variable juga bisa dibuat langsung dengan nilainya, dan sangat cocok jika, kita ingin membuat variable langsung dengan value dari variable nya.
-- Cara membuatnya bisa gunakan perintah : `tipeData namaVariable = isi variable;
+- Cara membuatnya bisa gunakan perintah : `tipeData namaVariable = isi variable;`
 
 ## Menggabungkan String
 
