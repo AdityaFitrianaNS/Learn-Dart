@@ -1,3 +1,4 @@
+```dart
 void main() {
   var nama = ['Aditya Fitriana NS', 'よう わたなべ', 'かえではら かずは', '神崎ひでり', 'ゆい'];
   var kelas = ['R21', 'R31', 'R41', 'R51', 'R61'];
@@ -187,3 +188,4 @@ void main() {
 String getGaris() {
   return '-------------------------------';
 }
+```

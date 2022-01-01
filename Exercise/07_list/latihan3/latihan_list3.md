@@ -1,12 +1,13 @@
+```dart
 void main() {
-  var namaPasien = ['Abdil', 'Abdul', 'Abdel'];
-  var nomerUrut = ['10', '11', '12'];
-  var jenisPenyakit = ['Demam', 'Dbd', 'Flue'];
+  var namaPasien = <String>['Abdil', 'Abdul', 'Abdel'];
+  var nomerUrut = <String>['10', '11', '12'];
+  var jenisPenyakit = <String>['Demam', 'Dbd', 'Flue'];
   num biayaDemam = 100000;
   num biayaDbd = 200000;
   num biayaFlue = 300000;
   num biayaBisul = 150000;
-  var biayaDimiliki = [170000, 260000, 330000];
+  var biayaDimiliki = <int>[170000, 260000, 330000];
   late var garis = getGaris();
 
   print('List Data');
@@ -83,3 +84,4 @@ void main() {
 String getGaris() {
   return '---------------------------';
 }
+```
