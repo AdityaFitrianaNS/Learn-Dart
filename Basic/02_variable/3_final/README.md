@@ -1,7 +1,7 @@
 ## Kata kunci final
 
 - Secara default, variable di Dart bisa dideklarasikan ulang, artinya jika sebelumnya membuat variable dengan value "Aditya", kita bisa ubah variable tersebut menjadi "Fitriana" dengan caara `namaVariable ="Fitriana";`.
-- Jika ada kasus, dimana kita tida kignin sebuah variable dideklarasikan ulang, untuk
+- Jika ada kasus, dimana kita tidak ingin sebuah variable dideklarasikan ulang, untuk
     - `final TipeData namaVariable = value;`
     - `final namaVariable = value;`
 
