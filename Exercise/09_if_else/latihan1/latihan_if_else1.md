@@ -1,3 +1,4 @@
+```dart
 void main() {
   var nama = <String>['Aditya', 'Rafli', 'Cilor'];
   var kelas = <String>['R51', 'R52', 'R53'];
